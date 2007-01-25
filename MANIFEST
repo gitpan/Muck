@@ -1,4 +1,5 @@
 MANIFEST
+INSTALL
 README
 LICENSE
 Todo
@@ -10,6 +11,7 @@ bin/s3-test.pl
 bin/test-muckFS.pl
 etc/muckfs.conf.orig
 etc/muckfs.sql
+etc/Fuse-0.08-get-context.diff
 lib/Muck.pm
 lib/Muck/FS.pm
 lib/Muck/FS/VFS.pm

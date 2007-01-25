@@ -17,8 +17,8 @@ use Test::More qw/no_plan/;
 use Muck::FS::S3::AWSAuthConnection;
 use Muck::FS::S3::QueryStringAuthGenerator;
 
-my $AWS_ACCESS_KEY_ID = '0D0MMXKA54K8B90G7FG2';
-my $AWS_SECRET_ACCESS_KEY = 'KLkjFdJSU3NMh3QtVSqoqzEZFDWXU+ZkDEXMFdB9';
+my $AWS_ACCESS_KEY_ID = 'your aws id';
+my $AWS_SECRET_ACCESS_KEY = 'your aws secret';
 
 my $BUCKET_NAME = "$AWS_ACCESS_KEY_ID-test-bucket";
 

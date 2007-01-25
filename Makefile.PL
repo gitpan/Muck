@@ -10,6 +10,7 @@ WriteMakefile(
     ABSTRACT     => 'manage the muck of an Amazon EC2 and S3 cloud',
     PREREQ_PM    => {
                      'Cache::Memcached' => 0,
+                     'ConfigReader::Simple' => 0,
                      'DBI' => 0,
                      'Digest::HMAC_SHA1' => 0,
                      'Fuse' => 0.08, # we need 0.9 once it is out
